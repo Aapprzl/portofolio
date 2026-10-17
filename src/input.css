@@ -1,14 +1,17 @@
 @import "tailwindcss";
 
-body {
-  font-family: 'Inter', sans-serif;
-}
-
 @layer base {
   html {
-  scroll-behavior: smooth;
-}
+    scroll-behavior: smooth;
+    /* navbar menjadi fixed saat halaman di-scroll (h-16 = 4rem) */
+    scroll-padding-top: 5rem;
+  }
 
+  /* judul section tidak tertutup navbar saat menuju tautan #anchor */
+  section[id],
+  footer[id] {
+    scroll-margin-top: 5rem;
+  }
 }
 
 @layer utilities {

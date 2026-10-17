@@ -1,311 +1,381 @@
 <!doctype html>
-<html class="overflow-x-clip">
+<html lang="id" class="overflow-x-clip scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muh. Aprizal — Teknisi Jaringan & IT Support | Web Developer</title>
+  <meta name="description" content="Portofolio Muh. Aprizal: teknisi maintenance jaringan WiFi (MikroTik RouterOS, LAN, kabel optik), web developer, dan AI agent engineer dari Kab. Bone, Sulawesi Selatan.">
+  <meta name="author" content="Muh. Aprizal">
+  <meta name="theme-color" content="#14b8a6">
+  <meta property="og:title" content="Muh. Aprizal — Teknisi Jaringan & IT Support | Web Developer">
+  <meta property="og:description" content="Portofolio Muh. Aprizal: jaringan WiFi, pengembangan web, dan otomasi berbasis AI.">
+  <meta property="og:type" content="website">
   <link href="src/output.css" rel="stylesheet">
 </head>
-<body class="overflow-x-hidden">
-
+<body class="overflow-x-hidden bg-white text-slate-700">
 
 <!-- Start Navbar -->
 <header class="flex top-0 left-0 w-full bg-transparent absolute items-center z-10">
   <div class="container mx-auto px-4 md:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
       <div class="px-4">
-        <a href="#" class="text-lg font-bold text-teal-500 block py-6">Aprizal<span class="text-slate-900">Dev</span></a>
+        <a href="#hero" class="text-lg font-bold text-teal-500 block py-6">Aprizal<span class="text-slate-900">Dev</span></a>
       </div>
       <div class="flex items-center px-4">
 
-        <button id="hamberger" name="hamberger" type="button" class="lg:hidden">
+        <button id="hamberger" name="hamberger" type="button" class="lg:hidden" aria-label="Buka menu">
           <span class="hamberger-line transition duration-300 ease-in-out origin-top-left"></span>
           <span class="hamberger-line transition duration-300 ease-in-out"></span>
           <span class="hamberger-line transition duration-300 ease-in-out origin-bottom-left"></span>
         </button>
 
         <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
-          <ul class="block lg:flex ">
+          <ul class="block lg:flex">
             <li class="group">
               <a href="#hero" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-teal-500">Beranda</a>
             </li>
             <li class="group">
-              <a href="#about" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-teal-500">Tentang saya</a>
+              <a href="#tentang" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-teal-500">Tentang Saya</a>
             </li>
             <li class="group">
               <a href="#portofolio" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-teal-500">Portofolio</a>
             </li>
             <li class="group">
-              <a href="#client" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-teal-500">Client</a>
+              <a href="#keahlian" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-teal-500">Keahlian</a>
             </li>
             <li class="group">
-              <a href="#blog" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-teal-500">Blog</a>
+              <a href="#kontak" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-teal-500">Kontak</a>
             </li>
           </ul>
         </nav>
 
       </div>
-
     </div>
   </div>
 </header>
- <!-- End Navbar -->
+<!-- End Navbar -->
 
-<!-- Start Hero-->
-   <section id="hero" class="pt-36">
-    <div class="container mx-auto">
-      <div class="flex flex-wrap">
-        <div class="w-full self-center px-10 md:w-1/2">
+<!-- Start Hero -->
+<section id="hero" class="pt-36">
+  <div class="container mx-auto">
+    <div class="flex flex-wrap">
+      <div class="w-full self-center px-10 md:w-1/2">
 
-          <h1 class="text-base font-semibold text-teal-500 md:text-xl ">Halo Semua 👋 saya <span class="block font-bold text-slate-900 text-4xl mt-1 lg:text-5xl">Muh. Aprizal</span></h1>
-          <h2 class="font-medium text-slate-500 text-lg mb-3 lg:text-2xl pt-2">Programing | Video Maker | Enginer</h2>
-          <p class="font-medium text-slate-400 mb-10 leading-normal">Disini kalian akan mendapatkan pemahaman yang baru dan tidak akan kalian dapatkan jika tidak mencarinya</p>
-          <a href="#" class="text-base font-semibold text-white bg-teal-500 py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi Saya</a>
-
+        <h1 class="text-base font-semibold text-teal-500 md:text-xl">Halo Semua 👋 saya <span class="block font-bold text-slate-900 text-4xl mt-1 lg:text-5xl">Muh. Aprizal</span></h1>
+        <h2 class="font-medium text-slate-500 text-lg mb-3 lg:text-2xl pt-2">Teknisi Jaringan &amp; IT Support · Web Developer · AI Agent Engineer</h2>
+        <p class="font-medium text-slate-400 mb-6 leading-normal max-w-xl">Mahasiswa S1 Pendidikan Bahasa Arab IAIN Bone dengan keahlian multidisiplin di bidang AI Agent Engineering, jaringan komputer, pengembangan web, dan otomasi sistem. Punya pengalaman kerja profesional dalam pemeliharaan jaringan serta rekam jejak riset R&amp;D dan perancangan sistem berbasis AI.</p>
+        <div class="flex flex-wrap items-center gap-3 mb-10">
+          <span class="text-sm font-semibold text-teal-700 bg-teal-50 rounded-full px-4 py-1">±300 pelanggan WiFi</span>
+          <span class="text-sm font-semibold text-teal-700 bg-teal-50 rounded-full px-4 py-1">2 tahun di lapangan</span>
+          <span class="text-sm font-semibold text-teal-700 bg-teal-50 rounded-full px-4 py-1">IPK 3,04</span>
         </div>
-        <div class="w-full self-end px-4 md:w-1/2">
-          <div class=" relative mt-10 lg:right-0 lg:mt-9">
-            <img src="img/Aprizal.PNG" alt="Aprizal" class="max-w-72 mx-auto lg:scale-125">
-            <span class="absolute -bottom-23 -z-10 left-1/2 -translate-x-1/2 md:scale-x-110 lg:scale-125">
-              <svg width="500" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-              <path fill="#08BDBA" d="M61.1,-20.6C68.9,4.2,57.9,34.3,39,46.4C20.1,58.4,-6.7,52.3,-26.9,37.5C-47.1,22.7,-60.7,-0.7,-55.1,-22.4C-49.6,-44.1,-24.8,-64.1,0.9,-64.4C26.7,-64.7,53.3,-45.3,61.1,-20.6Z" transform="translate(100 100)" />
-              </svg>
-            </span>
+        <div class="flex flex-wrap items-center gap-3 mb-10">
+          <a href="#portofolio" class="text-base font-semibold text-white bg-teal-500 border border-teal-500 py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Lihat Portofolio</a>
+          <a href="#kontak" class="text-base font-semibold text-teal-600 border border-teal-500 py-3 px-8 rounded-full hover:bg-teal-50 transition duration-300 ease-in-out">Hubungi Saya</a>
+        </div>
+
+      </div>
+      <div class="w-full self-end px-4 md:w-1/2">
+        <div class="relative mt-10 lg:right-0 lg:mt-9">
+          <img src="img/Aprizal.PNG" alt="Muh. Aprizal" class="max-w-72 mx-auto lg:scale-125">
+          <span class="absolute -bottom-23 -z-10 left-1/2 -translate-x-1/2 md:scale-x-110 lg:scale-125">
+            <svg width="500" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#08BDBA" d="M61.1,-20.6C68.9,4.2,57.9,34.3,39,46.4C20.1,58.4,-6.7,52.3,-26.9,37.5C-47.1,22.7,-60.7,-0.7,-55.1,-22.4C-49.6,-44.1,-24.8,-64.1,0.9,-64.4C26.7,-64.7,53.3,-45.3,61.1,-20.6Z" transform="translate(100 100)" />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Hero -->
+
+<!-- Start Tentang -->
+<section id="tentang" class="pt-36 pb-32">
+  <div class="container mx-auto">
+    <div class="flex flex-wrap">
+      <div class="w-full px-10 mb-10 md:w-1/2">
+        <h4 class="font-bold uppercase text-teal-500 text-lg mb-3">Tentang Saya</h4>
+        <h2 class="font-bold text-slate-900 text-3xl mb-5 max-w-md">Menjaga jaringan tetap hidup, lalu membangun sistem di atasnya</h2>
+        <p class="font-medium text-base text-slate-500 max-w-xl mb-4">Selama ±2 tahun saya memelihara jaringan WiFi untuk sekitar 300 pelanggan di Kecamatan Bontocani — konfigurasi router MikroTik, instalasi kabel LAN dan kabel optik, pemasangan router pelanggan, sampai troubleshooting gangguan di lapangan.</p>
+        <p class="font-medium text-base text-slate-500 max-w-xl mb-4">Sejak 2024 saya mengerjakan proyek mandiri: home server Debian dengan jaringan aman lewat Tailscale, perancangan arsitektur program yang modular, dan otomasi alur kerja berbasis LLM dan AI agent.</p>
+        <p class="font-medium text-base text-slate-500 max-w-xl">Saat ini saya menyusun skripsi R&amp;D (Model 4D) berupa media pembelajaran Bahasa Arab berbasis website terintegrasi gamifikasi untuk Mahārah Qirā’ah siswa kelas VIII MTs Baytul Mukarromah — estimasi lulus April/Mei 2027.</p>
+      </div>
+      <div class="w-full px-10 md:w-1/2">
+        <h3 class="font-semibold text-slate-900 text-2xl mb-6 md:pt-10">Riwayat Singkat</h3>
+        <ul class="mb-8">
+          <li class="border-l-4 border-teal-500 pl-4 mb-6">
+            <p class="text-sm font-bold text-teal-600 uppercase">2021 – sekarang</p>
+            <p class="font-semibold text-slate-900">S1 Pendidikan Bahasa Arab — IAIN Bone</p>
+            <p class="font-medium text-base text-slate-500">IPK 3,04 · sedang menyusun skripsi</p>
+          </li>
+          <li class="border-l-4 border-slate-300 pl-4 mb-6">
+            <p class="text-sm font-bold text-teal-600 uppercase">2022 – 2024</p>
+            <p class="font-semibold text-slate-900">Teknisi Maintenance Jaringan WiFi — Agnhy Lurah Network</p>
+            <p class="font-medium text-base text-slate-500">Kecamatan Bontocani, Sulawesi Selatan</p>
+          </li>
+          <li class="border-l-4 border-slate-300 pl-4 mb-6">
+            <p class="text-sm font-bold text-teal-600 uppercase">2018 – 2020</p>
+            <p class="font-semibold text-slate-900">Asisten Teknisi IT &amp; Komputer — UPT SMAN 6 Bone</p>
+            <p class="font-medium text-base text-slate-500">Perakitan dan troubleshooting perangkat komputer</p>
+          </li>
+          <li class="border-l-4 border-slate-300 pl-4">
+            <p class="text-sm font-bold text-teal-600 uppercase">2017 – 2020</p>
+            <p class="font-semibold text-slate-900">SMA — UPT SMAN 6 Bone</p>
+            <p class="font-medium text-base text-slate-500">Jurusan MIPA · rata-rata nilai 91,58</p>
+          </li>
+        </ul>
+        <a href="mailto:icalaprizal23072003@gmail.com" class="inline-flex items-center text-base font-semibold text-white bg-teal-500 py-3 px-6 rounded-full hover:opacity-80 transition duration-300">
+          <svg role="img" width="20" class="fill-current mr-2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Email</title><path d="M1.5 4.5h21A1.5 1.5 0 0 1 24 6v12a1.5 1.5 0 0 1-1.5 1.5h-21A1.5 1.5 0 0 1 0 18V6a1.5 1.5 0 0 1 1.5-1.5Zm10.5 8.4L2.7 6.3h18.6L12 12.9Zm0 2.5 9.1-6.3v7.6H2.9V9.1L12 15.4Z"/></svg>
+          Kirim Email
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Tentang -->
+
+<!-- Start Portofolio -->
+<section id="portofolio" class="pt-36 pb-16 bg-slate-100">
+  <div class="container mx-auto">
+    <div class="w-full px-10">
+      <div class="max-w-xl mx-auto text-center mb-16">
+        <h4 class="font-semibold text-lg text-teal-500 mb-2">Portofolio</h4>
+        <h2 class="font-bold text-3xl text-slate-900 mb-4">Proyek yang saya kerjakan</h2>
+        <p class="font-medium text-base text-slate-500">Tiga proyek nyata: platform pembelajaran Bahasa Arab, situs profil angkatan, dan blog pribadi.</p>
+      </div>
+    </div>
+    <div class="w-full px-4 flex flex-wrap justify-center">
+
+      <div class="mb-12 p-4 md:w-1/2">
+        <div class="rounded-md shadow-md overflow-hidden bg-white">
+          <img src="img/poject/1.png" alt="Tampilan beranda Tarbiyyat al-Lughah">
+        </div>
+        <div class="flex flex-wrap items-center gap-2 mt-5 mb-3">
+          <span class="text-xs font-semibold text-teal-700 bg-teal-50 rounded-full px-3 py-1">Media pembelajaran</span>
+          <span class="text-xs font-semibold text-slate-600 bg-slate-100 rounded-full px-3 py-1">Skripsi R&amp;D</span>
+        </div>
+        <h3 class="font-semibold text-xl text-slate-900 mb-3">Tarbiyyat al-Lughah — Platform Pembelajaran Bahasa Arab</h3>
+        <p class="font-medium text-base text-slate-500 mb-3">Situs pembelajaran Bahasa Arab interaktif untuk siswa MTs: materi kosa kata per kelas, latihan berupa kuis, susun kata, dan cocokkan gambar, halaman komik, video percakapan, serta fitur gamifikasi. Dikembangkan sebagai media penelitian skripsi R&amp;D dengan model 4D untuk siswa kelas VIII MTs Baytul Mukarromah.</p>
+        <p class="font-medium text-base text-slate-500 mb-4">Dibangun dengan React 19, Vite, TailwindCSS, dan Supabase (Auth, PostgreSQL, Storage, Realtime).</p>
+        <a href="https://www.tarbiyyatallughah.com" target="_blank" rel="noopener" class="font-medium text-sm text-white bg-teal-500 py-2 px-4 rounded-lg hover:opacity-80">Kunjungi situs</a>
+      </div>
+
+      <div class="mb-12 p-4 md:w-1/2">
+        <div class="rounded-md shadow-md overflow-hidden bg-white">
+          <img src="img/poject/2.png" alt="Tampilan situs profil PBA 2022">
+        </div>
+        <div class="flex flex-wrap items-center gap-2 mt-5 mb-3">
+          <span class="text-xs font-semibold text-teal-700 bg-teal-50 rounded-full px-3 py-1">Proyek kelompok</span>
+          <span class="text-xs font-semibold text-slate-600 bg-slate-100 rounded-full px-3 py-1">Website</span>
+        </div>
+        <h3 class="font-semibold text-xl text-slate-900 mb-3">PBA 2022 — Situs Profil Angkatan</h3>
+        <p class="font-medium text-base text-slate-500">Proyek kelompok Kelompok 2 Program Studi Pendidikan Bahasa Arab angkatan 2022, IAIN Bone: halaman profil angkatan dengan struktur beranda, about, tugas, dan kontak.</p>
+      </div>
+
+      <div class="mb-12 p-4 md:w-1/2">
+        <div class="rounded-md shadow-md overflow-hidden bg-white">
+          <img src="img/poject/3.png" alt="Tampilan blog Canxine Zero">
+        </div>
+        <div class="flex flex-wrap items-center gap-2 mt-5 mb-3">
+          <span class="text-xs font-semibold text-teal-700 bg-teal-50 rounded-full px-3 py-1">Blog pribadi</span>
+          <span class="text-xs font-semibold text-slate-600 bg-slate-100 rounded-full px-3 py-1">Menulis</span>
+        </div>
+        <h3 class="font-semibold text-xl text-slate-900 mb-3">Canxine Zero — Blog Pribadi</h3>
+        <p class="font-medium text-base text-slate-500">Ruang tulis pribadi berisi artikel ide dan filsafat, misalnya “Philosophy Facts for Kids” (Desember 2023). Saya mengelola seluruh isinya sekaligus merancang tampilan blognya.</p>
+      </div>
+
+      <div class="mb-6 p-4 w-full">
+        <h3 class="font-semibold text-lg text-slate-900 mb-3">Proyek lain yang berjalan</h3>
+        <ul class="list-disc pl-5 font-medium text-base text-slate-500 max-w-3xl">
+          <li class="mb-2">Home server (Debian/Linux) dengan manajemen jaringan aman menggunakan Tailscale — 2024–2026.</li>
+          <li class="mb-2">Perancangan arsitektur program, struktur modul, dan pipeline analitik otomatis — 2025–2026.</li>
+          <li>Otomasi alur kerja dan pengembangan alternatif solusi berbasis LLM dan AI agent — 2024–2026.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End Portofolio -->
+
+<!-- Start Keahlian -->
+<section id="keahlian" class="pt-36 pb-16">
+  <div class="container mx-auto">
+    <div class="w-full px-10">
+      <div class="max-w-xl mx-auto text-center mb-16">
+        <h4 class="font-semibold text-lg text-teal-500 mb-2">Keahlian</h4>
+        <h2 class="font-bold text-3xl text-slate-900 mb-4">Yang saya kerjakan sehari-hari</h2>
+        <p class="font-medium text-base text-slate-500">Jaringan komputer, pengembangan web, otomasi sistem, dan pengembangan dengan bantuan AI.</p>
+      </div>
+    </div>
+
+    <div class="w-full px-4 flex flex-wrap justify-center mb-16">
+      <div class="p-4 w-full md:w-1/2 lg:w-1/4">
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 p-6 h-full">
+          <h3 class="font-semibold text-lg text-slate-900 mb-3">Jaringan Komputer &amp; WiFi</h3>
+          <ul class="text-base font-medium text-slate-500 list-disc pl-5">
+            <li>MikroTik RouterOS</li>
+            <li>Instalasi kabel LAN &amp; kabel optik</li>
+            <li>Troubleshooting gangguan jaringan</li>
+            <li>Pemasangan router pelanggan</li>
+          </ul>
+        </div>
+      </div>
+      <div class="p-4 w-full md:w-1/2 lg:w-1/4">
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 p-6 h-full">
+          <h3 class="font-semibold text-lg text-slate-900 mb-3">Web &amp; Backend</h3>
+          <ul class="text-base font-medium text-slate-500 list-disc pl-5">
+            <li>React, Vite, TailwindCSS</li>
+            <li>Supabase (Auth, PostgreSQL, Storage, Realtime)</li>
+            <li>Full-stack web development</li>
+          </ul>
+        </div>
+      </div>
+      <div class="p-4 w-full md:w-1/2 lg:w-1/4">
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 p-6 h-full">
+          <h3 class="font-semibold text-lg text-slate-900 mb-3">AI &amp; Otomasi</h3>
+          <ul class="text-base font-medium text-slate-500 list-disc pl-5">
+            <li>LLM &amp; AI Agent Engineering</li>
+            <li>Pengembangan dengan bantuan AI (vibe coding)</li>
+            <li>Otomasi alur kerja &amp; sistem</li>
+          </ul>
+        </div>
+      </div>
+      <div class="p-4 w-full md:w-1/2 lg:w-1/4">
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 p-6 h-full">
+          <h3 class="font-semibold text-lg text-slate-900 mb-3">Sistem &amp; Multimedia</h3>
+          <ul class="text-base font-medium text-slate-500 list-disc pl-5">
+            <li>Linux (Debian), Tailscale, Git</li>
+            <li>Adobe Premiere &amp; Illustrator</li>
+            <li>Editing video dan foto</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full px-10 mb-16">
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-1/2 mb-10">
+          <h3 class="font-semibold text-2xl text-slate-900 mb-5">Bahasa</h3>
+          <ul class="font-medium text-base text-slate-500">
+            <li class="mb-2"><span class="font-semibold text-slate-700">Indonesia</span> — penutur asli</li>
+            <li class="mb-2"><span class="font-semibold text-slate-700">Arab</span> — akademik / dasar-menengah</li>
+            <li><span class="font-semibold text-slate-700">Inggris</span> — pasif / menengah</li>
+          </ul>
+        </div>
+        <div class="w-full md:w-1/2">
+          <h3 class="font-semibold text-2xl text-slate-900 mb-5">Penghargaan &amp; Pelatihan</h3>
+          <ul class="font-medium text-base text-slate-500">
+            <li class="mb-2">2019 — Juara 1 Lomba Desain dan Management Website CMS, ICT SMAN 6 Bone</li>
+            <li class="mb-2">2019 — Juara 1 Merakit, Install &amp; Troubleshooting Windows x64 (berkelompok), ICT SMAN 6 Bone</li>
+            <li class="mb-2">2019 — Juara 3 Lomba Desain Grafis Beregu, ICT SMAN 6 Bone</li>
+            <li class="mb-2">2019 — Teknisi Komputer UNBK &amp; Helpdesk PPDB Online, UPT SMAN 6 Bone</li>
+            <li>2018 — Pelatihan Komputer: Korespondensi &amp; Kesekretariatan; Install &amp; Troubleshooting OS Windows, ICT SMAN 6 Bone</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full px-10">
+      <h3 class="font-semibold text-2xl text-slate-900 mb-6">Pengalaman Kerja &amp; Proyek</h3>
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+          <div class="border border-slate-200 rounded-2xl p-6 h-full">
+            <p class="text-sm font-bold text-teal-600 uppercase mb-2">2022 – 2024</p>
+            <h4 class="font-semibold text-lg text-slate-900 mb-2">Teknisi Maintenance Jaringan WiFi</h4>
+            <p class="font-medium text-base text-slate-500">Agnhy Lurah Network, Kecamatan Bontocani — pemeliharaan jaringan WiFi dan koneksi internet untuk sekitar 300 pelanggan.</p>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+          <div class="border border-slate-200 rounded-2xl p-6 h-full">
+            <p class="text-sm font-bold text-teal-600 uppercase mb-2">2024 – 2026</p>
+            <h4 class="font-semibold text-lg text-slate-900 mb-2">Proyek Mandiri Sistem &amp; AI</h4>
+            <p class="font-medium text-base text-slate-500">Arsitektur program modular, pipeline analitik, otomasi alur kerja berbasis LLM, dan home server Debian dengan Tailscale.</p>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+          <div class="border border-slate-200 rounded-2xl p-6 h-full">
+            <p class="text-sm font-bold text-teal-600 uppercase mb-2">2018 – 2020</p>
+            <h4 class="font-semibold text-lg text-slate-900 mb-2">Asisten Teknisi IT &amp; Komputer</h4>
+            <p class="font-medium text-base text-slate-500">UPT SMAN 6 Bone — membantu teknisi komputer UNBK sekolah, perakitan dan troubleshooting perangkat komputer.</p>
           </div>
         </div>
       </div>
     </div>
-   </section>
-   <!-- End Hero -->
-    <!-- Start About -->
-  <section id="about" class="pt-36 pb-32">
-      <div class="container mx-auto">
-        <div class="flex flex-wrap">
-          <div class="w-full px-10 mb-10 md:w-1/2">
-            <h4 class="font-bold uppercase text-teal-500 text-lg mb-3">Tentang Saya</h4>
-            <h2 class="font-bold text-slate-900 text-3xl mb-5 max-w-md">Yuk, belajar bahasa arab bersama Tarbiyyat al-Lughah</h2>
-            <p class="font-medium text-base text-slate-500 max-w-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, ipsum!</p>
-          </div>
-          <div class="w-full px-10 md:w-1/2">
-            <h3 class="font-semibold text-slate-900 text-2xl mb-4 md:pt-10">Mari Berteman</h3>
-            <p class="font-medium text-base text-slate-500 mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. A explicabo voluptate, deleniti aspernatur tempore repellat minima qui suscipit pariatur. Molestiae.</p>
-            <div class="flex items-center">
-              <!-- Youtube -->
-               <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-teal-500 hover:bg-teal-500 hover:text-white ">
-                <svg role="img" width="25"class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-               </a>
-               <!-- Github -->
-               <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-teal-500 hover:bg-teal-500 hover:text-white ">
-                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-               </a>
-               <!-- Quora -->
-               <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-teal-500 hover:bg-teal-500 hover:text-white ">
-                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Quora</title><path d="M7.3799.9483A11.9628 11.9628 0 0 1 21.248 19.5397l2.4096 2.4225c.7322.7362.21 1.9905-.8272 1.9905l-10.7105.01a12.52 12.52 0 0 1-.304 0h-.02A11.9628 11.9628 0 0 1 7.3818.9503Zm7.3217 4.428a7.1717 7.1717 0 1 0-5.4873 13.2512 7.1717 7.1717 0 0 0 5.4883-13.2511Z"/></svg>
-               </a>
-               <!-- Nation -->
-               <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-teal-500 hover:bg-teal-500 hover:text-white ">
-                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Notion</title><path d="M4.459 4.208c.746.606 1.026.56 2.428.466l13.215-.793c.28 0 .047-.28-.046-.326L17.86 1.968c-.42-.326-.981-.7-2.055-.607L3.01 2.295c-.466.046-.56.28-.374.466zm.793 3.08v13.904c0 .747.373 1.027 1.214.98l14.523-.84c.841-.046.935-.56.935-1.167V6.354c0-.606-.233-.933-.748-.887l-15.177.887c-.56.047-.747.327-.747.933zm14.337.745c.093.42 0 .84-.42.888l-.7.14v10.264c-.608.327-1.168.514-1.635.514-.748 0-.935-.234-1.495-.933l-4.577-7.186v6.952L12.21 19s0 .84-1.168.84l-3.222.186c-.093-.186 0-.653.327-.746l.84-.233V9.854L7.822 9.76c-.094-.42.14-1.026.793-1.073l3.456-.233 4.764 7.279v-6.44l-1.215-.139c-.093-.514.28-.887.747-.933zM1.936 1.035l13.31-.98c1.634-.14 2.055-.047 3.082.7l4.249 2.986c.7.513.934.653.934 1.213v16.378c0 1.026-.373 1.634-1.68 1.726l-15.458.934c-.98.047-1.448-.093-1.962-.747l-3.129-4.06c-.56-.747-.793-1.306-.793-1.96V2.667c0-.839.374-1.54 1.447-1.632z"/></svg>
-               </a>
+  </div>
+</section>
+<!-- End Keahlian -->
 
-            </div>
-          </div>
+<!-- Start Kontak -->
+<section id="kontak" class="pt-36 pb-32 bg-slate-700">
+  <div class="container mx-auto">
+    <div class="w-full px-4">
+      <div class="mx-auto text-center mb-10">
+        <h4 class="font-semibold text-lg text-teal-500 mb-2">Kontak</h4>
+        <h2 class="font-bold text-3xl text-white mb-4 lg:text-5xl sm:text-4xl">Mari bekerja sama</h2>
+        <p class="font-medium text-base text-slate-300 md:text-xl max-w-2xl mx-auto">Terbuka untuk posisi penuh waktu, kontrak, atau freelance di bidang jaringan, IT support, pengembangan web, dan otomasi sistem — di Sulawesi Selatan maupun jarak jauh.</p>
+      </div>
+    </div>
+    <div class="w-full px-4">
+      <div class="max-w-xl mx-auto bg-slate-800 rounded-2xl p-8 text-center">
+        <p class="font-medium text-slate-300 mb-6">Kirim email ke:</p>
+        <a href="mailto:icalaprizal23072003@gmail.com" class="text-lg lg:text-2xl font-bold text-teal-400 break-all hover:underline">icalaprizal23072003@gmail.com</a>
+        <div class="mt-8">
+          <a href="mailto:icalaprizal23072003@gmail.com" class="inline-flex items-center text-base font-semibold text-slate-900 bg-teal-500 py-3 px-8 rounded-full hover:opacity-80 transition duration-300">
+            <svg role="img" width="20" class="fill-current mr-2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Email</title><path d="M1.5 4.5h21A1.5 1.5 0 0 1 24 6v12a1.5 1.5 0 0 1-1.5 1.5h-21A1.5 1.5 0 0 1 0 18V6a1.5 1.5 0 0 1 1.5-1.5Zm10.5 8.4L2.7 6.3h18.6L12 12.9Zm0 2.5 9.1-6.3v7.6H2.9V9.1L12 15.4Z"/></svg>
+            Hubungi Saya
+          </a>
         </div>
       </div>
-  </section>
-<!-- End About -->
-
-<!-- Start Portofolio -->
-  <section id="portofolio" class="pt-36 pb-16 bg-slate-100">
-        <div class="container mx-auto">
-          <div class="w-full px-10">
-            <div class="max-w-xl mx-auto text-center mb-16">
-              <h4 class="font-semibold text-lg text-teal-500 mb-2">Portofolio</h4>
-              <h2 class="font-bold text-3xl text-slate-900 mb-4">Project Terbaru</h2>
-              <p class="font-medium text-md text-slate-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi sunt minus error aperiam ducimus distinctio numquam adipisci maxime nihil accusantium.</p>
-            </div>
-          </div>
-          <div class="w-full px-4 flex flex-wrap justify-center">
-            <div class="mb-12 p-4 md:w-1/2">
-              <div class="rounded-md shadow-md overflow-hidden">
-                <img src="img/poject/1.png" alt="Website-Arab" >
-              </div>
-              <h3 class="font-semibold text-xl text-slate-900 mt-5 mb-3">Website Arabic</h3>
-              <p class="font-medium text-base text-slate-500 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quo consequatur praesentium?</p>
-            </div>
-            <div class="mb-12 p-4 md:w-1/2">
-              <div class="rounded-md shadow-md overflow-hidden">
-                <img src="img/poject/2.png" alt="Class-website" >
-              </div>
-              <h3 class="font-semibold text-xl text-slate-900 mt-5 mb-3">Class Website</h3>
-              <p class="font-medium text-base text-slate-500 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quo consequatur praesentium?</p>
-            </div>
-            <div class="mb-12 p-4 md:w-1/2">
-              <div class="rounded-md shadow-md overflow-hidden">
-                <img src="img/poject/3.png" alt="blog-website" >
-              </div>
-              <h3 class="font-semibold text-xl text-slate-900 mt-5 mb-3">Blog Website</h3>
-              <p class="font-medium text-base text-slate-500 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quo consequatur praesentium?</p>
-            </div>
-          </div>
-        </div>
-  </section>
-<!-- End Portofolio -->
-
-<!-- Start Client -->
-  <section id="client" class="pt-36 pb-32 bg-slate-700">
-        <div class="container mx-auto">
-          <div class="w-full px-4">
-            <div class="mx-auto text-center mb-16">
-              <h4 class="font-semibold text-lg text-teal-500 mb-2">Client</h4>
-              <h2 class="font-bold text-3xl text-white mb-4 lg:text-5xl sm:text-4xl">yang pernah bekerjasama</h2>
-              <p class="font-medium text-md text-slate-500 md:text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi sunt minus error aperiam ducimus distinctio numquam adipisci maxime nihil accusantium.</p>
-            </div>
-          </div>
-          <div class="w-full px-4">
-            <div class="flex flex-wrap items-center justify-center">
-              <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 md:mx-6 lg:mx-8">
-                <img src="img/client/LOGO-INSTITUT-AGAMA-ISLAM-NEGERI-IAIN-BONE.png" alt="">
-              </a>
-              <a href="#" class="max-w-[110px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 md:mx-6 lg:mx-8">
-                <img src="img/client/LOGO HMPSPBA.PNG" alt="">
-              </a>
-            </div>
-          </div>
-        </div>
-  </section>
-<!-- End Client -->
-
-<!-- Start Blog -->
-  <section id="blog" class="pt-36 pb-32 bg-slate-100">
-          <div class="container mx-auto">
-            <div class="w-full px-4">
-              <div class="max-w-xl mx-auto text-center mb-16">
-                <h4 class="font-semibold text-lg text-teal-500 mb-2">Blog</h4>
-                <h2 class="font-bold text-slate-900 text-3xl mb-4 sm:text-4xl lg:text-5xl">Tulisan Terkini</h2>
-                <p class="font-medium text-md text-slate-500 md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores delectus distinctio explicabo sint porro reiciendis reprehenderit.</p>
-              </div>
-            </div>
-
-            <div class="flex flex-wrap">
-              <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                  <img src="img/blog/1.jpg" alt="" class="w-full aspect-[16/9] object-cover object-center">
-                  <div class="py-8 px-6">
-                    <h3 class="mb-3 font-semibold text-xl text-slate-900 hover:text-teal-500 truncate">Artikel 1</h3>
-                    <h4 class="mb-3 font-medium text-md text-slate-700/80 italic">Penulisnya</h4>
-                    <p class=" mb-6 font-medium text-base text-slate-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, deleniti?</p>
-                    <a href="#" class="font-medium text-sm text-white bg-teal-500 py-2 px-4 rounded-lg hover:opacity-80">Selengkapnya</a>
-                  </div>
-                </div>
-              </div>
-              <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                  <img src="img/blog/2.jpg" alt="" class="w-full aspect-[16/9] object-cover object-center">
-                  <div class="py-8 px-6">
-                    <h3 class="mb-3 font-semibold text-xl text-slate-900 hover:text-teal-500 truncate">Artikel 2</h3>
-                    <h4 class="mb-3 font-medium text-md text-slate-700/80 italic">Penulisnya</h4>
-                    <p class=" mb-6 font-medium text-base text-slate-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, deleniti?</p>
-                    <a href="#" class="font-medium text-sm text-white bg-teal-500 py-2 px-4 rounded-lg hover:opacity-80">Selengkapnya</a>
-                  </div>
-                </div>
-              </div>
-              <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                  <img src="img/blog/3.jpg" alt="" class="w-full aspect-[16/9] object-cover object-center">
-                  <div class="py-8 px-6">
-                    <h3 class="mb-3 font-semibold text-xl text-slate-900 hover:text-teal-500 truncate">Artikel 3</h3>
-                    <h4 class="mb-3 font-medium text-md text-slate-700/80 italic">Penulisnya</h4>
-                    <p class=" mb-6 font-medium text-base text-slate-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, deleniti?</p>
-                    <a href="#" class="font-medium text-sm text-white bg-teal-500 py-2 px-4 rounded-lg hover:opacity-80">Selengkapnya</a>
-                  </div>
-                </div>
-              </div>
-              <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                  <img src="img/blog/4.webp" alt="" class="w-full aspect-[16/9] object-cover object-center">
-                  <div class="py-8 px-6">
-                    <h3 class="mb-3 font-semibold text-xl text-slate-900 hover:text-teal-500 truncate">Artikel 4</h3>
-                    <h4 class="mb-3 font-medium text-md text-slate-700/80 italic">Penulisnya</h4>
-                    <p class=" mb-6 font-medium text-base text-slate-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, deleniti?</p>
-                    <a href="#" class="font-medium text-sm text-white bg-teal-500 py-2 px-4 rounded-lg hover:opacity-80">Selengkapnya</a>
-                  </div>
-                </div>
-              </div>
-              
-            </div>
-          </div>
-  </section>
-<!-- End Blog -->
+    </div>
+  </div>
+</section>
+<!-- End Kontak -->
 
 <!-- Start Footer -->
-  <footer class="bg-slate-900 pt-24 pb-12">
-          <div class="container mx-auto">
-            <div class="flex flex-wrap ">
-              <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
-                <h2 class="font-bold text-4xl text-white mb-5">AprizalDev</h2>
-                <h3 class="font-bold text-2xl mb-2">Hubungi Saya</h3>
-                <p>aprizal007@gmail.com</p>
-                <p>Jl. Wahidin sudiro</p>
-                <p>Watampone</p>
-              </div>
-              <div class="w-full px-4 mb-12 md:w-1/3">
-                <h3 class="font-semibold text-white text-xl mb-5">Kategori Tulisan</h3>
-                <ul class="text-slate-300">
-                  <li>
-                    <a href="#" class="inline-block text-base hover:text-teal-500 mb-3">Artikel 1</a>
-                  </li>
-                  <li>
-                    <a href="#" class="inline-block text-base hover:text-teal-500 mb-3">Artikel 2</a>
-                  </li>
-                  <li>
-                    <a href="#" class="inline-block text-base hover:text-teal-500 mb-3">Artikel 3</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="w-full px-4 mb-12 md:w-1/3">
-                <h3 class="font-semibold text-white text-xl mb-5">Tautan</h3>
-                <ul class="text-slate-300">
-                  <li>
-                    <a href="#hero" class="inline-block text-base hover:text-teal-500 mb-3">Beranda</a>
-                  </li>
-                  <li>
-                    <a href="#blog" class="inline-block text-base hover:text-teal-500 mb-3">Blog</a>
-                  </li>
-                  <li>
-                    <a href="#portofolio" class="inline-block text-base hover:text-teal-500 mb-3">Portofolio</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+<footer class="bg-slate-900 pt-24 pb-12">
+  <div class="container mx-auto">
+    <div class="flex flex-wrap">
+      <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+        <h2 class="font-bold text-4xl text-white mb-5">AprizalDev</h2>
+        <h3 class="font-bold text-2xl mb-2">Hubungi Saya</h3>
+        <p class="break-all mb-1">icalaprizal23072003@gmail.com</p>
+        <p>Poparappa, RT/RW 001/001, Kelurahan Polewali</p>
+        <p>Kecamatan Libureng, Kab. Bone, Sulawesi Selatan 92766</p>
+      </div>
+      <div class="w-full px-4 mb-12 md:w-1/3">
+        <h3 class="font-semibold text-white text-xl mb-5">Bagian Halaman</h3>
+        <ul class="text-slate-300">
+          <li>
+            <a href="#tentang" class="inline-block text-base hover:text-teal-500 mb-3">Tentang Saya</a>
+          </li>
+          <li>
+            <a href="#portofolio" class="inline-block text-base hover:text-teal-500 mb-3">Portofolio</a>
+          </li>
+          <li>
+            <a href="#keahlian" class="inline-block text-base hover:text-teal-500 mb-3">Keahlian</a>
+          </li>
+          <li>
+            <a href="#kontak" class="inline-block text-base hover:text-teal-500 mb-3">Kontak</a>
+          </li>
+        </ul>
+      </div>
+      <div class="w-full px-4 mb-12 md:w-1/3">
+        <h3 class="font-semibold text-white text-xl mb-5">Ringkas</h3>
+        <p class="text-slate-300 text-base mb-2">Teknisi Jaringan &amp; IT Support · Web Developer · AI Agent Engineer</p>
+        <p class="text-slate-300 text-base">Kab. Bone, Sulawesi Selatan</p>
+      </div>
+    </div>
 
-            <div class="w-full pt-10 border-t border-slate-700">
-              <div class="flex items-center justify-center mb-5">
-              <!-- Youtube -->
-               <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-teal-500 hover:bg-teal-500 hover:text-white ">
-                <svg role="img" width="25"class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-               </a>
-               <!-- Github -->
-               <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-teal-500 hover:bg-teal-500 hover:text-white ">
-                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-               </a>
-               <!-- Quora -->
-               <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-teal-500 hover:bg-teal-500 hover:text-white ">
-                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Quora</title><path d="M7.3799.9483A11.9628 11.9628 0 0 1 21.248 19.5397l2.4096 2.4225c.7322.7362.21 1.9905-.8272 1.9905l-10.7105.01a12.52 12.52 0 0 1-.304 0h-.02A11.9628 11.9628 0 0 1 7.3818.9503Zm7.3217 4.428a7.1717 7.1717 0 1 0-5.4873 13.2512 7.1717 7.1717 0 0 0 5.4883-13.2511Z"/></svg>
-               </a>
-               <!-- Nation -->
-               <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-teal-500 hover:bg-teal-500 hover:text-white ">
-                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Notion</title><path d="M4.459 4.208c.746.606 1.026.56 2.428.466l13.215-.793c.28 0 .047-.28-.046-.326L17.86 1.968c-.42-.326-.981-.7-2.055-.607L3.01 2.295c-.466.046-.56.28-.374.466zm.793 3.08v13.904c0 .747.373 1.027 1.214.98l14.523-.84c.841-.046.935-.56.935-1.167V6.354c0-.606-.233-.933-.748-.887l-15.177.887c-.56.047-.747.327-.747.933zm14.337.745c.093.42 0 .84-.42.888l-.7.14v10.264c-.608.327-1.168.514-1.635.514-.748 0-.935-.234-1.495-.933l-4.577-7.186v6.952L12.21 19s0 .84-1.168.84l-3.222.186c-.093-.186 0-.653.327-.746l.84-.233V9.854L7.822 9.76c-.094-.42.14-1.026.793-1.073l3.456-.233 4.764 7.279v-6.44l-1.215-.139c-.093-.514.28-.887.747-.933zM1.936 1.035l13.31-.98c1.634-.14 2.055-.047 3.082.7l4.249 2.986c.7.513.934.653.934 1.213v16.378c0 1.026-.373 1.634-1.68 1.726l-15.458.934c-.98.047-1.448-.093-1.962-.747l-3.129-4.06c-.56-.747-.793-1.306-.793-1.96V2.667c0-.839.374-1.54 1.447-1.632z"/></svg>
-               </a>
-
-            </div>
-            <p class="font-medium text-sm text-slate-500 text-center">Dibuat oleh <span class="font-bold text-teal-500">Muh. Aprizal</span> menggunakan <a href="https://tailwindcss.com/" target="_blank" class="font-bold text-sky-500">Tailwind CSS</a> 4.1</p>
-            </div>
-          </div>
-  </footer>
+    <div class="w-full pt-10 border-t border-slate-700">
+      <p class="font-medium text-sm text-slate-500 text-center">Dibuat oleh <span class="font-bold text-teal-500">Muh. Aprizal</span> menggunakan <a href="https://tailwindcss.com/" target="_blank" rel="noopener" class="font-bold text-sky-500">Tailwind CSS</a> · 2026</p>
+    </div>
+  </div>
+</footer>
 <!-- End Footer -->
 
 <script src="dist/js/script.js"></script>
-
-
 
 </body>
 </html>
