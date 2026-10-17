@@ -9,7 +9,7 @@ Situs portofolio pribadi satu halaman (HTML + Tailwind CSS 4), diterbitkan melal
 |---|---|
 | Hero | Nama, peran (Teknisi Jaringan & IT Support · Web Developer · AI Agent Engineer), ringkasan profil |
 | Tentang Saya | Pengalaman jaringan (±300 pelanggan, Kec. Bontocani), proyek mandiri, skripsi R&D |
-| Portofolio | 3 proyek: Tarbiyyat al-Lughah, PBA 2022, Canxine Zero + daftar proyek berjalan |
+| Portofolio | 2 proyek: Tarbiyyat al-Lughah, PBA 2022 (tanpa gambar) + daftar proyek berjalan |
 | Keahlian | Jaringan, web & backend, AI & otomasi, sistem & multimedia; bahasa; penghargaan & pelatihan |
 | Kontak | Email (satu-satunya kanal yang dipublikasikan) |
 
@@ -23,7 +23,7 @@ index.html          ← satu halaman, semua bagian
 src/input.css       ← sumber Tailwind + aturan dasar (scroll-padding, navbar-fixed, hamburger)
 src/output.css      ← hasil build, dipakai langsung oleh index.html
 dist/js/script.js   ← navbar fixed saat scroll + tombol hamburger
-img/                ← foto profil, tangkapan layar proyek
+img/                ← foto profil (tangkapan layar proyek tidak lagi dipakai di halaman)
 ```
 
 ## Build CSS
