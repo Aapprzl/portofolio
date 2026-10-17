@@ -9,7 +9,7 @@ Situs portofolio pribadi satu halaman (HTML + Tailwind CSS 4), diterbitkan melal
 |---|---|
 | Hero | Nama, peran (Teknisi Jaringan & IT Support · Web Developer · AI Agent Engineer), ringkasan profil |
 | Tentang Saya | Pengalaman jaringan (±300 pelanggan, Kec. Bontocani), proyek mandiri, skripsi R&D |
-| Portofolio | 2 proyek: Tarbiyyat al-Lughah, PBA 2022 (tanpa gambar) + daftar proyek berjalan |
+| Portofolio | 1 proyek tayang: Tarbiyyat al-Lughah (tanpa gambar) + daftar proyek berjalan |
 | Keahlian | Jaringan, web & backend, AI & otomasi, sistem & multimedia; bahasa; penghargaan & pelatihan |
 | Kontak | Email (satu-satunya kanal yang dipublikasikan) |
 
